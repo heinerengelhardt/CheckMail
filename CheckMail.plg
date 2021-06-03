@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: CheckMail - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"tmp/CheckMail.res" /d "NDEBUG" "D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\CheckMail.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP1C9.tmp" mit Inhalten
+[
+/nologo /MT /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fr"tmp/" /Fp"tmp/CheckMail.pch" /Yu"stdafx.h" /Fo"tmp/" /Fd"tmp/" /FD /c 
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\Account.cpp"
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\ButtonST.cpp"
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\Check.cpp"
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\CheckMail.cpp"
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\CheckMailDlg.cpp"
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\Config.cpp"
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\ConfigDlg.cpp"
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\HyperLink.cpp"
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\MailsDlg.cpp"
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\Pop.cpp"
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\TrayIcon.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP1C9.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP1CA.tmp" mit Inhalten
+[
+/nologo /MT /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fr"tmp/" /Fp"tmp/CheckMail.pch" /Yc"stdafx.h" /Fo"tmp/" /Fd"tmp/" /FD /c 
+"D:\Eigene Dateien\Develop\C++\Projekte\CheckMail\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP1CA.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP1CB.tmp" mit Inhalten
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"bin/release/CheckMail.pdb" /machine:I386 /out:"bin/release/CheckMail.exe" 
+".\tmp\Account.obj"
+".\tmp\ButtonST.obj"
+".\tmp\Check.obj"
+".\tmp\CheckMail.obj"
+".\tmp\CheckMailDlg.obj"
+".\tmp\Config.obj"
+".\tmp\ConfigDlg.obj"
+".\tmp\HyperLink.obj"
+".\tmp\MailsDlg.obj"
+".\tmp\Pop.obj"
+".\tmp\StdAfx.obj"
+".\tmp\TrayIcon.obj"
+".\tmp\CheckMail.res"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP1CB.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+Account.cpp
+ButtonST.cpp
+Check.cpp
+CheckMail.cpp
+CheckMailDlg.cpp
+Config.cpp
+ConfigDlg.cpp
+HyperLink.cpp
+MailsDlg.cpp
+Pop.cpp
+TrayIcon.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+CheckMail.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>
