@@ -1,2 +1,2 @@
 # CheckMail
- CheckMail - Email checking utility
+Email checking utility
